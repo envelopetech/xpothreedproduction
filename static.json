@@ -1,0 +1,12 @@
+{
+    "root": "./",
+    "routes": {
+      "/**": "index.html"
+    },
+    "proxies": {
+        "/xporium/": {
+          "origin": "https://xporiumbackend.herokuapp.com/"
+        }
+      }
+  }
+  
